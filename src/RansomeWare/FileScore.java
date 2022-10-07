@@ -39,7 +39,7 @@ public class FileScore {
         aes = new AES();
         System.out.println("Performing AES Encryption");
 //        File in = new File(System.getProperty("user.home") +  File.separator + "output.txt");
-        File in = new File("C:\\Users\\ponna\\Desktop\\sai" +  File.separator + "output.txt");
+        File in = new File("<Paste your files path here>" +  File.separator + "output.txt");
 
         try(BufferedReader br = new BufferedReader(new FileReader(in))) {
             String line;
