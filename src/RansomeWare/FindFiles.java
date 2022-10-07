@@ -40,7 +40,7 @@ public class FindFiles {
         //Use System Property rather than C:\\ to make it OS independent
 
         //String home = System.getProperty("user.home");
-        String home = "C:\\Users\\ponna\\Desktop\\sai";
+        String home = "<Paste your files path here>";
 
 //        //Creating a file to write the files found into
 //       // Writer writer = new FileWriter(System.getProperty("user.home") + File.separator + "output.txt", false);
