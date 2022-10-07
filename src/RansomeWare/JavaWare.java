@@ -37,7 +37,7 @@ public class JavaWare {
 
     public void DecryptFiles() throws Exception {
     	System.out.println("\nStarting the decryption :)\n");
-        String home = "C:\\Users\\ponna\\Desktop\\sai";
+        String home = "<Paste your files path here>";
         decryptionTraversal(home);
 
     }
